@@ -1,0 +1,59 @@
+h1 {
+    background-color:#c1fab1;
+    padding: 10px;
+    width: 100%; 
+    display: inline-block; 
+    border-color: black;
+    
+}
+
+
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .menu div {
+        margin-left: 10px; 
+    }
+
+    footer {
+        background-color: lightgreen;
+        padding: 10px; 
+        display: block;
+        width: 100%; 
+        box-sizing: border-box; 
+        text-align: center; 
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-between; 
+        align-items: flex-start; 
+    }
+    
+    .content > div {
+        flex: 10;
+        margin-right: 20px; 
+    }
+    .img-1{
+display: flex; /* me lo coloca muy grande y abajo */
+margin-left: auto; /*  este si lo ubica alfinal   */
+max-width: 400px; /*este ayuda*/
+
+    }
+
+    .img-2{
+float: left;/* esta me la ubica abajo del h2 y al lado de la información */
+margin-right: 20px; /*no vi el cambio*/
+max-width: 300px;
+
+
+    }
+    .correo{
+
+        margin-right: 10px;
+        max-width: 200px; /* me ayuda con el tamaño */
+        
+    }
+   
